@@ -1,0 +1,195 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins,sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:white;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#FFD700;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:35px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+nav a:hover{
+color:#FFD700;
+}
+
+nav button{
+background:#FFD700;
+border:none;
+padding:12px 25px;
+border-radius:30px;
+cursor:pointer;
+font-weight:bold;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:70px 8%;
+gap:50px;
+}
+
+.hero-text{
+flex:1;
+}
+
+.hero-text h1{
+font-size:60px;
+line-height:1.2;
+margin-bottom:20px;
+}
+
+.hero-text p{
+color:#bbb;
+line-height:1.8;
+margin-bottom:30px;
+}
+
+.buttons{
+display:flex;
+gap:20px;
+}
+
+.btn1,.btn2{
+padding:15px 30px;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+.btn1{
+background:#FFD700;
+color:black;
+}
+
+.btn2{
+border:2px solid white;
+color:white;
+}
+
+.hero-image{
+flex:1;
+}
+
+.hero-image img{
+width:100%;
+border-radius:25px;
+box-shadow:0 0 40px rgba(255,215,0,.25);
+}
+
+.featured{
+padding:80px 8%;
+}
+
+.featured h2{
+text-align:center;
+margin-bottom:40px;
+font-size:40px;
+}
+
+.card{
+display:flex;
+gap:40px;
+background:#1b1b1b;
+padding:30px;
+border-radius:20px;
+align-items:center;
+}
+
+.card img{
+width:400px;
+border-radius:15px;
+}
+
+.card h3{
+font-size:32px;
+margin-bottom:15px;
+}
+
+.card p{
+color:#aaa;
+margin-bottom:20px;
+}
+
+.card h4{
+margin-bottom:20px;
+color:#FFD700;
+}
+
+.card button{
+padding:12px 25px;
+border:none;
+background:#FFD700;
+font-weight:bold;
+border-radius:30px;
+cursor:pointer;
+}
+
+.why{
+padding:80px 8%;
+}
+
+.why h2{
+text-align:center;
+font-size:40px;
+margin-bottom:40px;
+}
+
+.why-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.box{
+background:#1b1b1b;
+padding:30px;
+border-radius:20px;
+text-align:center;
+transition:.3s;
+}
+
+.box:hover{
+transform:translateY(-8px);
+}
+
+.box i{
+font-size:40px;
+color:#FFD700;
+margin-bottom:20px;
+}
+
+footer{
+padding:40px;
+text-align:center;
+background:black;
+color:#888;
+margin-top:80px;
+}
